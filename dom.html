@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sum of Array Elements</title>
+</head>
+<body>
+  <h1>Sum of Array Elements</h1>
+  <p id="result"></p>
+
+  <script>
+    
+    const numbers = [10, 20, 30, 40, 50];
+
+    
+    let sum = 0;
+
+
+    for (let i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+
+   
+    const resultElement = document.getElementById('result');
+    resultElement.textContent = 'Sum: ' + sum;
+  </script>
+</body>
+</html>
